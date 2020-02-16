@@ -10,6 +10,7 @@ def arguments_decorator(num_of_repeats):
                 result = func_to_decorate(*args)
                 print("STOPPED WRAPPING")
                 results.append(result)
+                ?
             return results
 
         return wrapper
